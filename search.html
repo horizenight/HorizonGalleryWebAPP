@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Ninja Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="nav-container">
+        
+        <a href="/" class="nav-logo">
+        <span class="nav-star">
+            <svg viewBox="0 0 512 512">
+            <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
+            </svg>
+          </span>
+          </a>
+
+        <form action='search.html' class="search-container">
+            
+            <input class="search-input" type='text' autocomplete="off" name="'search" class="search-box" placeholder="search image">
+    
+            <button class="search-btn" type="submit">
+    
+                search
+            </button>
+        </form>
+    </div>
+
+
+<!-- Popup Window  -->
+<div class="popup-window hide">
+    
+    <button class="close-btn"> </button>
+    <a href="#" class="download-btn">download images</a>
+    <button class="controls  prev-btn"> <img src="img/pre.png" alt="previous"> </button>
+    <img src="" class="popup-img" alt="">
+    <button class="controls  next-btn"> <img src="img/nxt.png" alt="next"> </button>
+</div>
+
+     <!-- Gallery Section -->
+
+     <div class="container">
+
+ 
+    <section class="gallery">
+          
+          <div class="gallery-box">
+           
+          </div>
+                
+          <div class="gallery-box">
+           
+          </div>
+                
+ 
+          <div class="gallery-box">
+           
+          </div>
+                
+ 
+          
+       
+          
+          <div class="gallery-box"></div>
+          
+          <div class="gallery-box"></div>
+            
+    </section>
+    <button id="load-more-btn" class="load-more-btn">Load More</button>
+    
+</div>
+
+
+
+    <script src='app.js'></script>
+
+</body>
+
+</html>
