@@ -83,11 +83,11 @@ const showPopup = (item) => {
 
 }
 
-if(searchParam == ''){
-    getImages();
-} else{
-    searchImages();
-}
+// if(searchParam == ''){
+//     getImages();
+// } else{
+//     searchImages();
+// }
 
 
 
